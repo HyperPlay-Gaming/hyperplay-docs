@@ -10,6 +10,7 @@
 * [📜 Publish / List a Game](developer-docs/publish-list-a-game/README.md)
   * [⚒️ Building with HyperPlay](developer-docs/publish-list-a-game/building-with-hyperplay.md)
   * [📃 Publishing Your Game](developer-docs/publish-list-a-game/publishing-your-game.md)
+  * [🛳️ CI/CD Automation](developer-docs/publish-list-a-game/ci-cd-automation.md)
   * [🖥️ Developer Portal](developer-docs/publish-list-a-game/developer-portal.md)
   * [📛 HyperPlay Store Badges](developer-docs/publish-list-a-game/hyperplay-store-badges.md)
   * [🎨 HyperPlay Hex Codes](developer-docs/publish-list-a-game/hyperplay-hex-codes.md)
