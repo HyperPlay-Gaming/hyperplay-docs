@@ -44,3 +44,9 @@
   * [How to Create a Quest](developer-docs/quests/how-to-create-a-quest.md)
 * [🏪 Store APIs](developer-docs/store-apis/README.md)
   * [Listings by Popularity](developer-docs/store-apis/listings-by-popularity.md)
+
+***
+
+* [🔑 Access Configs](access-configs/README.md)
+  * [How to create access codes](access-configs/how-to-create-access-codes.md)
+  * [How to token gate a channel](access-configs/how-to-token-gate-a-channel.md)
