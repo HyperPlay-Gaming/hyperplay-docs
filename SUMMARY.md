@@ -15,6 +15,7 @@
   * [📛 HyperPlay Store Badges](developer-docs/publish-list-a-game/hyperplay-store-badges.md)
   * [🎨 HyperPlay Hex Codes](developer-docs/publish-list-a-game/hyperplay-hex-codes.md)
   * [🆘 Feedback & Developer Support](developer-docs/publish-list-a-game/feedback-and-developer-support.md)
+  * [🩹 \[Beta\] Patching](developer-docs/publish-list-a-game/beta-patching.md)
 * [⌨️ Design Considerations](developer-docs/design-considerations/README.md)
   * [Unreal Engine Integration](developer-docs/design-considerations/unreal-engine-integration.md)
   * [Unity Integration](developer-docs/design-considerations/unity-integration.md)
