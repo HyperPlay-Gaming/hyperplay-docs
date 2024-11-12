@@ -6,25 +6,25 @@ description: >-
 
 # 🌐 API for Browser Games (EVM)
 
-## Out-of-the-box Browser Game Compatibility
+## Two Clients: Out-of-the-box Compatibility
 
 HyperPlay provides multiple out-of-the-box methods for launching Browser games with the HyperPlay Overlay:
 
-* HyperPlay Browser Client (within existing browsers, launched directly from the store page)
+* HyperPlay Browser Client (within existing browsers, launched directly from the game's HyperPlay [Store](https://store.hyperplay.xyz/) page)
 * HyperPlay Desktop Client (within the native HyperPlay app)
 
-Our Browser Client allows you to launch your game directly within your HyperPlay Store Page, without needing to install the Desktop Client.
+Our Browser Client allows you to launch your game directly within your HyperPlay [Store](https://store.hyperplay.xyz/) Page, without needing to install the Desktop Client.
 
-Our Desktop Client allows you to launch your game within a WebView with WebGPU support, and upgrades your browser game to feel like a native game experience.
+Our Desktop Client allows you to launch your game within a WebView with WebGPU support, and upgrades your browser game to feel like a full screen native game experience.
 
 **Browser-based games receive a number of advantages by being listed in HyperPlay.**&#x20;
 
 * Greater distribution and discovery by web3 players
 * Built-in Quests via the HyperPlay Overlay
-* Built-in Authentication via the HyperPlay Overlay
+* Games can opt to use HyperPlay's authentication to simplify player onboarding
 * Graphics card acceleration through WebGPU ensures that games perform well
 * Games are opened in a full-screen view, making them feel more like native games
-* Developers get access to the full-suite of tools, incentives, and features that HyperPlay ecosystem provides to game developers.
+* Developers get access to the full-suite of tools, incentives, and features that the HyperPlay ecosystem provides to game developers.
 
 **If your game is already compatible with MetaMask, either through `window.ethereum` or the MetaMask SDK, your game is already compatible with HyperPlay's wallet overlay.**&#x20;
 
@@ -40,11 +40,11 @@ To test your game, we recommend opening the HyperPlay desktop application, navig
 
 ## Testing Your Game with the Browser Client
 
-Please proceed with the regular onboarding process for browser games. Once you've submitted your game's info and URL, please reach out to your HyperPlay account representatives to enable the Browser Client for your game.
+Please proceed with listing your game through the HyperPlay Developer Portal (see below). Once you've submitted your game's listing info, please reach out to your HyperPlay account representatives to enable the Browser Client functionality for your game.
 
 ## Listing your Browser Game in the Store
 
-Once you're ready to list, reach out to the HyperPlay team via the Submit a Listing link on hyperplay.xyz. We'll get you connected to the HyperPlay developer portal so you'll be able to manage your listing. The whole process is quick and easy.
+Once you're ready to list, reach out to the HyperPlay team via the Submit a Listing link on hyperplay.xyz. We'll get you connected to the HyperPlay Developer Portal so you'll be able to manage your listing. The whole process is quick and easy.
 
 ## Limitations
 
@@ -84,11 +84,14 @@ To integrate this fix, please install the following NPM package and follow the s
 
 {% embed url="https://www.npmjs.com/package/@hyperplay/browser-sdk" %}
 
-#### OAuth not allowed within iframe&#x20;
+#### OAuth not possible within iframe&#x20;
 
-If your game **requires** OAuth at any step in the sign-in or registration flow, due to standard security best practices, OAuth providers like Google, Discord, etc, block signing in within iframes of a different origin to prevent websites from hijacking your session.
+If your game **requires** OAuth at any step in the sign-in or registration flow, due to third-party security practices, OAuth providers like Google, Discord, etc, block signing in within iframes of a different origin to prevent websites from hijacking your session.
 
-In these cases, we fallback to using the HyperPlay Desktop Client only for launching your game.
+In these cases, there are two possible solutions:
+
+* Allow players to use Sign-in With Ethereum or a similar web3 signature-based authentication, and hide the OAuth options for these users.
+* Fallback to using the HyperPlay Desktop Client only for launching your game.
 
 Since the Desktop Client acts like a native browser, it does not use an iframe to inject the Overlay, and therefore, this issue is avoided.
 
