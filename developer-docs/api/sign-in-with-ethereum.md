@@ -99,7 +99,7 @@ Sign-in with Ethereum (**SIWE**) is a form of authentication that enables users 
 
 ### Let's review the process within HyperPlay
 
-<figure><img src="../../../../../.gitbook/assets/0_GLO_ZCNPBiJP7x6J.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_GLO_ZCNPBiJP7x6J.png" alt=""><figcaption></figcaption></figure>
 
 #### This will be split into three parts
 
@@ -111,7 +111,7 @@ Sign-in with Ethereum (**SIWE**) is a form of authentication that enables users 
 {% tab title="Creating the message" %}
 The server will create a message for the client to sign.
 
-<figure><img src="../../../../../.gitbook/assets/0_ihWUYwPWwNcV9LJi.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_ihWUYwPWwNcV9LJi.png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -132,7 +132,7 @@ const siweMessage = message.prepareMessage();
 console.log(siweMessage);    
 ```
 
-**The **_**siweMessage**_** will look something like this:**
+**The&#x20;**_**siweMessage**_**&#x20;will look something like this:**
 
 ```cpp
 localhost:8080 wants you to sign in with your Ethereum account:
@@ -157,7 +157,7 @@ localhost:8080 wants you to sign in with your Ethereum account:\n0x638105AA1B694
 {% tab title="Signing the message" %}
 The client will use their wallet to sign the message.
 
-<figure><img src="../../../../../.gitbook/assets/0_cr2LCkzWBr5VmSPK.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_cr2LCkzWBr5VmSPK.png" alt=""><figcaption></figcaption></figure>
 
 #### Browser
 
@@ -180,7 +180,7 @@ The client will use their wallet to sign the message.
 
 **There should be a popup to sign**
 
-<figure><img src="../../../../../.gitbook/assets/0_ppxZ6joVnc94J3w5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_ppxZ6joVnc94J3w5.png" alt=""><figcaption></figcaption></figure>
 
 **cURL with HyperPlay**
 
@@ -203,7 +203,7 @@ curl --location --request POST "localhost:9680/rpc" \
 
 **If connected to MetaMask SDK, there should be a popup on mobile to sign.**
 
-<figure><img src="../../../../../.gitbook/assets/0_IS02muzlxyayPUCU.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_IS02muzlxyayPUCU.jpg" alt=""><figcaption></figcaption></figure>
 
 #### Using Unity with HyperPlay
 
@@ -263,7 +263,7 @@ int main(){
 {% endtab %}
 
 {% tab title="Verifying the signature" %}
-<figure><img src="../../../../../.gitbook/assets/0_U8gqV9cK1cx44hpS.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0_U8gqV9cK1cx44hpS.png" alt=""><figcaption></figcaption></figure>
 
 **The signature will look something like this:**
 

@@ -49,5 +49,5 @@
 ***
 
 * [🔑 Access Configs](access-configs/README.md)
-  * [How to create access codes](access-configs/how-to-create-access-codes.md)
-  * [How to token gate a channel](access-configs/how-to-token-gate-a-channel.md)
+  * [How to create Access Codes](access-configs/how-to-create-access-codes.md)
+  * [How to token gate a Release Branch](access-configs/how-to-token-gate-a-release-branch.md)
