@@ -1,19 +1,18 @@
 ## Downsides and Limitations of the Compatibility Layer
 
-Unfortunately the Compatibility Layers are not perfect and doesn't support every Windows or DirectX Call yet, they are pretty advanced on Linux but still evolving on macOS. So some issues might be found and some games might not even work at all, although in our experience this is just a small number nowdays.
-Some of these limitations includes, but not only:
+Unfortunately, compatibility layers are not perfect and do not support every Windows or DirectX call yet. They are quite advanced on Linux but still evolving on macOS. Some issues might be found, and some games might not work at all, although this is a small number nowadays. Some of these limitations include, but are not limited to:
 
 1. **Performance Impact**
-   Games running on Linux may experience up to a 10% performance decrease, while macOS users could see a reduction of up to 25%. On the oposite side, a bunch of games might have better performance sometimes depending on how it was developed.
+   Games running on Linux may experience up to a 10% performance decrease, while macOS users could see a reduction of up to 25%. On the other hand, some games might have better performance depending on how they were developed.
 
 2. **Shader Lag**
-   DX9/10/11 games might exhibit lag due to real-time shader caching. After the shaders are cached they persist until a game or driver update though.
+   DX9/10/11 games might exhibit lag due to real-time shader caching. Once the shaders are cached, they persist until a game or driver update.
 
 3. **Anti-Cheat Incompatibility**
-   Kernel-level anti-cheat systems (e.g., Vanguard, Easy Anti-Cheat) will not function. While Easy Anti-Cheat and BattleEye offers Wine support, this must be enabled by game developers and requires a specific library file within the game folder to work on Linux. macOS support is not currently available when using Compatibility Layer.
+   Kernel-level anti-cheat systems (e.g., Vanguard, Easy Anti-Cheat) will not function. While Easy Anti-Cheat and BattleEye offer Wine support, this must be enabled by game developers and requires a specific library file within the game folder to work on Linux. macOS support is not currently available when using compatibility layers.
 
 4. **Bugs and Glitches**
-   Users may encounter bugs and glitches. This might happens when some of the system or DirectX calls are not fully supported by the compatibiliy layer.
+   Users may encounter bugs and glitches when some system or DirectX calls are not fully supported by the compatibility layer.
 
 5. **Additional Workarounds**
-   In some cases, installing additional Windows libraries (e.g., vcrun, dotnet) may be necessary to run certain games. On Mac and Linux HyperPlay ships Winetricks which makes it easy to install those tools. An automated way to install those workaround is planned for a future HyperPlay release as well.
+   In some cases, installing additional Windows libraries (e.g., vcrun, dotnet) may be necessary to run certain games. On Mac and Linux, HyperPlay ships with Winetricks, making it easy to install these tools. An automated way to install these workarounds is planned for a future HyperPlay release.
