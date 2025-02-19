@@ -12,5 +12,4 @@ Using compatibility layers in software like HyperPlay is essential for several r
    By supporting multiple platforms through compatibility layers, users are not forced to stay on Windows just for gaming. This promotes an OS-agnostic gaming ecosystem, allowing users to choose their preferred operating system.
 
 4. **Enabling a Unified Gaming Experience**
-   Launchers like HyperPlay integrate multiple stores (Epic, GOG) under one platform. By incorporating compatibility layers, users can access their entire game library without worrying about OS restrictions.
-
+   Applications like HyperPlay aggregate multiple game stores (HyperPlay, Epic, GOG) under one platform. By incorporating compatibility layers, users can access their entire game library without worrying about OS restrictions.
