@@ -45,6 +45,10 @@
   * [How to Create a Quest](developer-docs/quests/how-to-create-a-quest.md)
 * [🏪 Store APIs](developer-docs/store-apis/README.md)
   * [Listings by Popularity](developer-docs/store-apis/listings-by-popularity.md)
+* [🍷 Compatibility Layer](developer-docs/compatibility-layer/README.md)
+  * [Benefits of using a Compatibility Layer](developer-docs/compatibility-layer/benefits-of-using-a-compatibility-layer.md)
+  * [Downsides and Limitations of the Compatibility Layer](developer-docs/compatibility-layer/downsides-and-limitations-of-the-compatibility-layer.md)
+  * [FAQ](developer-docs/compatibility-layer/faq.md)
 
 ***
 
