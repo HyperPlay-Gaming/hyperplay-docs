@@ -7,3 +7,4 @@ Third-party game directories may integrate with our Store Aggregation APIs in or
 Public API endpoints:
 
 * [Listings](listings-by-popularity.md)
+* [Quests](quests-api.md)
